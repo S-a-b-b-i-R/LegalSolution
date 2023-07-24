@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Legal Solutions</title>
+    <link rel="shortcut icon" href="./images/business.png" type="image/x-icon">
     <!-- Tailwind & Daisy UI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -45,7 +46,7 @@
 </head>
 
 <body>
-    <header class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 mb-10">
+    <header class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5">
         <div class="navbar bg-base-100">
             <div class="navbar-start space-x-0">
                 <div class="dropdown">
@@ -57,7 +58,7 @@
                         </svg>
                     </label>
                     <ul tabindex="0"
-                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 poppins shadow bg-base-100 rounded-box w-52">
                         <li><a>Home</a></li>
                         <li><a>Services <span><i class="fa-solid fa-angle-right text-textSecondary"></i></span></a></li>
                         <li><a>Cases <span><i class="fa-solid fa-angle-right text-textSecondary"></i></span></a></li>
@@ -69,7 +70,7 @@
                 <img src="./images/logo2.png" alt="">
             </div>
             <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1 text-poppins text-base text-textSecondary">
+                <ul class="menu menu-horizontal px-1 poppins text-base text-textSecondary">
                     <li><a>Home</a></li>
                     <li><a>Services <span><i class="fa-solid fa-angle-right text-textSecondary"></i></span></a></li>
                     <li><a>Cases <span><i class="fa-solid fa-angle-right text-textSecondary"></i></span></a></li>
@@ -78,11 +79,33 @@
                 </ul>
             </div>
             <div class="navbar-end">
-                <button class="btn bg-btnBg text-textWhite text-poppins normal-case hover:bg-btnBg">Free
+                <button
+                    class="btn bg-btnBg text-textWhite poppins normal-case whitespace-pre-line md:whitespace-normal hover:bg-btnBg">Free
                     Consultation</button>
             </div>
         </div>
     </header>
+    <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 mb-10">
+        <div class="hero md:h-[550px] bg-center bg-no-repeat bg-cover  mx-a"
+            style="background-image: url(./images/banner.png);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+                <div class="max-w-3xl">
+                    <h1 class="mb-5 text-7xl garamond font-extrabold text-textWhite">We Provide Effective Legal
+                        Solutions</h1>
+                    <p class="mb-5 poppins text-textGray">There are many variations of passages of Lorem Ipsum
+                        available, but the majority
+                        have suffered alteration in some form, by injected humour.</p>
+                    <div class="flex items-center justify-center gap-4">
+                        <input type="text" placeholder="Search your services"
+                            class="input input-bordered w-full max-w-xs .placeholder-textGray2" />
+                        <button class="btn border-0 bg-btnBg text-textWhite poppins normal-case hover:bg-btnBg">Free
+                            Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
